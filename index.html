@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnakeSpel</title>
+    <style>
+        body{
+            width: 100vh;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            background-color: rgb(112, 7, 7);
+
+
+        }
+        #spelbräda{
+            background-color: rgb(223, 247, 181);
+            width: 100vh;
+            height: 100vh;
+            display: grid;
+            grid-template-rows: repeat(21,1fr);
+            grid-template-columns: repeat(21,1fr);
+            
+        }
+
+        .orm{
+            background-color: rgb(3, 104, 36);
+            border: .25vmin solid rgb(255, 23, 197);
+        }
+
+        .mat{
+            background-color: rgb(241, 144, 18);
+            border: .25vmin solid rgb(12, 12, 12);
+
+        }
+        
+
+    </style>
+    <script src="spel.js" defer type="module"></script>
+</head>
+<body>
+    <div id="spelbräda"></div>
+    
+</body>
+</html>
